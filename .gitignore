@@ -1,0 +1,28 @@
+# 运行产物 / 本地数据（绝不可入库：含真实聊天记录）
+server/data/
+server/artifacts/
+*.db
+*.db-wal
+*.db-shm
+*.log
+
+# 环境
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.env
+.env.local
+
+# 前端
+node_modules/
+dist/
+dist-ssr/
+
+# 编辑器
+.vscode/
+.idea/
+.DS_Store
+
